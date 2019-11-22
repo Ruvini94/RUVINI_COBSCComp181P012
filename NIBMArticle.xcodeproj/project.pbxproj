@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BCD20562386A2CF00CF4288 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCD20552386A2CF00CF4288 /* AppDelegate.swift */; };
+		7BCD20582386A2CF00CF4288 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCD20572386A2CF00CF4288 /* ViewController.swift */; };
+		7BCD205B2386A2CF00CF4288 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BCD20592386A2CF00CF4288 /* Main.storyboard */; };
+		7BCD20602386A2D000CF4288 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BCD205E2386A2D000CF4288 /* LaunchScreen.storyboard */; };
+		7BCD206C2386AB7800CF4288 /* ForgetPassword.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BCD206A2386AB7800CF4288 /* ForgetPassword.storyboard */; };
+		7BCD206F2386AF6D00CF4288 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7BCD206E2386AF6D00CF4288 /* GoogleService-Info.plist */; };
+		7BCD20712386B5EC00CF4288 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BCD20702386B5EC00CF4288 /* Home.storyboard */; };
+		7BCD20732386B60A00CF4288 /* PublisherProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BCD20722386B60A00CF4288 /* PublisherProfile.storyboard */; };
+		7BCD20772386B7C200CF4288 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCD20762386B7C200CF4288 /* HomeViewController.swift */; };
+		7BCD20792386BCD700CF4288 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BCD20782386BCD700CF4288 /* Assets.xcassets */; };
+		7BCD207D2386C52F00CF4288 /* ForgetPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCD207C2386C52F00CF4288 /* ForgetPassViewController.swift */; };
+		7BCD207F2386C7F300CF4288 /* PublisherProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCD207E2386C7F300CF4288 /* PublisherProfileViewController.swift */; };
+		7BCD20812386C8F300CF4288 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCD20802386C8F300CF4288 /* MyProfileViewController.swift */; };
+		7BCD20832386CD4A00CF4288 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BCD20822386CD4A00CF4288 /* Profile.storyboard */; };
+		CC3944388A6197A6C64E7388 /* Pods_Ruwani.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC9855924DE44A17DEA6CF3 /* Pods_Ruwani.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7BCD20522386A2CF00CF4288 /* NIBMArticle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NIBMArticle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BCD20552386A2CF00CF4288 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BCD20572386A2CF00CF4288 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7BCD205A2386A2CF00CF4288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BCD205F2386A2D000CF4288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BCD20612386A2D000CF4288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BCD206B2386AB7800CF4288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ForgetPassword.storyboard; sourceTree = "<group>"; };
+		7BCD206E2386AF6D00CF4288 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7BCD20702386B5EC00CF4288 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		7BCD20722386B60A00CF4288 /* PublisherProfile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PublisherProfile.storyboard; sourceTree = "<group>"; };
+		7BCD20762386B7C200CF4288 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7BCD20782386BCD700CF4288 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BCD207C2386C52F00CF4288 /* ForgetPassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPassViewController.swift; sourceTree = "<group>"; };
+		7BCD207E2386C7F300CF4288 /* PublisherProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublisherProfileViewController.swift; sourceTree = "<group>"; };
+		7BCD20802386C8F300CF4288 /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		7BCD20822386CD4A00CF4288 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		8BD8556898E68E1FE45E6DC9 /* Pods-Ruwani.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ruwani.debug.xcconfig"; path = "Target Support Files/Pods-Ruwani/Pods-Ruwani.debug.xcconfig"; sourceTree = "<group>"; };
+		A02FEEE75E10A2539EDCB868 /* Pods-Ruwani.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ruwani.release.xcconfig"; path = "Target Support Files/Pods-Ruwani/Pods-Ruwani.release.xcconfig"; sourceTree = "<group>"; };
+		ECC9855924DE44A17DEA6CF3 /* Pods_Ruwani.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ruwani.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BCD204F2386A2CF00CF4288 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3944388A6197A6C64E7388 /* Pods_Ruwani.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		358C674FD6CD26FB6A332AAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECC9855924DE44A17DEA6CF3 /* Pods_Ruwani.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5173CD7902C58B338BB2F484 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BD8556898E68E1FE45E6DC9 /* Pods-Ruwani.debug.xcconfig */,
+				A02FEEE75E10A2539EDCB868 /* Pods-Ruwani.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7BCD20492386A2CF00CF4288 = {
+			isa = PBXGroup;
+			children = (
+				7BCD20542386A2CF00CF4288 /* Ruwani */,
+				7BCD20532386A2CF00CF4288 /* Products */,
+				5173CD7902C58B338BB2F484 /* Pods */,
+				358C674FD6CD26FB6A332AAC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7BCD20532386A2CF00CF4288 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BCD20522386A2CF00CF4288 /* NIBMArticle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BCD20542386A2CF00CF4288 /* Ruwani */ = {
+			isa = PBXGroup;
+			children = (
+				7BCD206E2386AF6D00CF4288 /* GoogleService-Info.plist */,
+				7BCD20692386A2F900CF4288 /* Assets */,
+				7BCD20682386A2ED00CF4288 /* Controllers */,
+				7BCD20672386A2DE00CF4288 /* Views */,
+				7BCD20552386A2CF00CF4288 /* AppDelegate.swift */,
+				7BCD20612386A2D000CF4288 /* Info.plist */,
+			);
+			path = Ruwani;
+			sourceTree = "<group>";
+		};
+		7BCD20672386A2DE00CF4288 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7BCD206A2386AB7800CF4288 /* ForgetPassword.storyboard */,
+				7BCD20592386A2CF00CF4288 /* Main.storyboard */,
+				7BCD205E2386A2D000CF4288 /* LaunchScreen.storyboard */,
+				7BCD20702386B5EC00CF4288 /* Home.storyboard */,
+				7BCD20722386B60A00CF4288 /* PublisherProfile.storyboard */,
+				7BCD20822386CD4A00CF4288 /* Profile.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7BCD20682386A2ED00CF4288 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7BCD20572386A2CF00CF4288 /* ViewController.swift */,
+				7BCD20762386B7C200CF4288 /* HomeViewController.swift */,
+				7BCD207C2386C52F00CF4288 /* ForgetPassViewController.swift */,
+				7BCD207E2386C7F300CF4288 /* PublisherProfileViewController.swift */,
+				7BCD20802386C8F300CF4288 /* MyProfileViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7BCD20692386A2F900CF4288 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				7BCD20782386BCD700CF4288 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BCD20512386A2CF00CF4288 /* NIBMArticle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BCD20642386A2D000CF4288 /* Build configuration list for PBXNativeTarget "NIBMArticle" */;
+			buildPhases = (
+				A18052F839F26E7506D2E2BD /* [CP] Check Pods Manifest.lock */,
+				7BCD204E2386A2CF00CF4288 /* Sources */,
+				7BCD204F2386A2CF00CF4288 /* Frameworks */,
+				7BCD20502386A2CF00CF4288 /* Resources */,
+				F4BEB55AFDA4D1B9AC89EE0C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NIBMArticle;
+			productName = Ruwani;
+			productReference = 7BCD20522386A2CF00CF4288 /* NIBMArticle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BCD204A2386A2CF00CF4288 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Riviera Technologies";
+				TargetAttributes = {
+					7BCD20512386A2CF00CF4288 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 7BCD204D2386A2CF00CF4288 /* Build configuration list for PBXProject "NIBMArticle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BCD20492386A2CF00CF4288;
+			productRefGroup = 7BCD20532386A2CF00CF4288 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BCD20512386A2CF00CF4288 /* NIBMArticle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BCD20502386A2CF00CF4288 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BCD20602386A2D000CF4288 /* LaunchScreen.storyboard in Resources */,
+				7BCD206F2386AF6D00CF4288 /* GoogleService-Info.plist in Resources */,
+				7BCD20832386CD4A00CF4288 /* Profile.storyboard in Resources */,
+				7BCD20712386B5EC00CF4288 /* Home.storyboard in Resources */,
+				7BCD20732386B60A00CF4288 /* PublisherProfile.storyboard in Resources */,
+				7BCD206C2386AB7800CF4288 /* ForgetPassword.storyboard in Resources */,
+				7BCD20792386BCD700CF4288 /* Assets.xcassets in Resources */,
+				7BCD205B2386A2CF00CF4288 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A18052F839F26E7506D2E2BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ruwani-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4BEB55AFDA4D1B9AC89EE0C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ruwani/Pods-Ruwani-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ruwani/Pods-Ruwani-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ruwani/Pods-Ruwani-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BCD204E2386A2CF00CF4288 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BCD20812386C8F300CF4288 /* MyProfileViewController.swift in Sources */,
+				7BCD207F2386C7F300CF4288 /* PublisherProfileViewController.swift in Sources */,
+				7BCD20582386A2CF00CF4288 /* ViewController.swift in Sources */,
+				7BCD20562386A2CF00CF4288 /* AppDelegate.swift in Sources */,
+				7BCD207D2386C52F00CF4288 /* ForgetPassViewController.swift in Sources */,
+				7BCD20772386B7C200CF4288 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7BCD20592386A2CF00CF4288 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BCD205A2386A2CF00CF4288 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BCD205E2386A2D000CF4288 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BCD205F2386A2D000CF4288 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7BCD206A2386AB7800CF4288 /* ForgetPassword.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BCD206B2386AB7800CF4288 /* Base */,
+			);
+			name = ForgetPassword.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BCD20622386A2D000CF4288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BCD20632386A2D000CF4288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BCD20652386A2D000CF4288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BD8556898E68E1FE45E6DC9 /* Pods-Ruwani.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6S3W9F72QD;
+				INFOPLIST_FILE = Ruwani/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.riviera.Ruwani;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BCD20662386A2D000CF4288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A02FEEE75E10A2539EDCB868 /* Pods-Ruwani.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6S3W9F72QD;
+				INFOPLIST_FILE = Ruwani/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.riviera.Ruwani;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BCD204D2386A2CF00CF4288 /* Build configuration list for PBXProject "NIBMArticle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BCD20622386A2D000CF4288 /* Debug */,
+				7BCD20632386A2D000CF4288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BCD20642386A2D000CF4288 /* Build configuration list for PBXNativeTarget "NIBMArticle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BCD20652386A2D000CF4288 /* Debug */,
+				7BCD20662386A2D000CF4288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BCD204A2386A2CF00CF4288 /* Project object */;
+}
