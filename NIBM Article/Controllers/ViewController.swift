@@ -27,11 +27,12 @@ class ViewController: UIViewController {
                 Auth.auth().signIn(withEmail: email, password: password) { (user, error) in
                     if error != nil {
                         SVProgressHUD.dismiss()
-                        self.loadHome()
+                        print(error)
                         SCLAlertView().showError("Error", subTitle: "Please enter correct credentials")
                     } else {
                         self.userDefaults.set(true, forKey: "LoggedIn")
                         self.loadHome()
+                        SVProgressHUD.dismiss()
                     }
                 }
             } else {
